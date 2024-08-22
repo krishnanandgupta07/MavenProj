@@ -17,8 +17,14 @@ class Test1
 		System.out.println("Sum of two number is ::"+x+y);
 	}
 
+
 	public void m5(){
 		System.out.println("m5() method start");
+
+	public static int m4(){
+		int a=7;
+		System.out.println("Square of a number is::"+a*a);
+
 	}
 
 	public static void main(String args[]){
