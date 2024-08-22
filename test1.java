@@ -17,6 +17,10 @@ class Test1
 		System.out.println("Sum of two number is ::"+x+y);
 	}
 
+	public void m5(){
+		System.out.println("m5() method start");
+	}
+
 	public static void main(String args[]){
 		Test1 t1= new Test1();
 		t1.m1();
